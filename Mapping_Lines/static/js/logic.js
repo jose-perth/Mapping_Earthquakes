@@ -29,6 +29,19 @@ L.polyline(line, {
     color: "yellow"
   }).addTo(map);
 
+let line2 = [
+  [37.7749, -122.4194],   //sfo
+  [29.9902, -95.3368],  //iah
+  [43.6777, -79.6248],   //toronto
+  [40.6413, -73.7781]   //jfk
+];
+
+L.polyline(line2, {
+  color: "blue",
+  weight: 2,
+  dashArray:"10 10" 
+}).addTo(map);
+
 //  Add a marker to the map for Los Angeles, California.
 //let marker = L.marker([34.0522, -118.2437]).addTo(map);
 let circle = L.circle([34.0522, -118.2437],
