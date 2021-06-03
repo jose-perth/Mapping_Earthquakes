@@ -90,4 +90,11 @@ L.geoJson(data, {
 }).addTo(map);
 });
 
-let torontoData = 
+let torontoData = "https://raw.githubusercontent.com/jose-perth/Mapping_Earthquakes/main/torontoRoutes.json";
+
+// Grabbing our GeoJSON data.
+d3.json(torontoData).then(function(data) {
+  console.log(data);
+// Creating a GeoJSON layer with the retrieved data.
+L.geoJson(data).addTo(map);
+});
