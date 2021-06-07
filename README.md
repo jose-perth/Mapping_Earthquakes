@@ -15,9 +15,11 @@ This project was created in JavaScript using Leaflet.js, and D3. Map layers are 
 All files are located under the folder [Earthquake_Challenge](Earthquake_Challenge/).
 
 Files:
-[index.html](Earthquake_Challenge/index.html)
-[static/css/style.css](Earthquake_Challenge/static/css/style.css)
-[static/js/challenge_logic.js](Earthquake_Challenge/static/js/challenge_logic.js)
+
+- [index.html](Earthquake_Challenge/index.html)
+- [static/css/style.css](Earthquake_Challenge/static/css/style.css)
+- [static/js/challenge_logic.js](Earthquake_Challenge/static/js/challenge_logic.js)
+
 
 Users can now select 1 of 3 map modes (Street, Satellite or Light) and control the display of Earthquakes, Major Earthquakes and Tectonic Plates.
 
