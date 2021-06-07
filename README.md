@@ -23,7 +23,7 @@ Files:
 
 Users can now select 1 of 3 map modes (Street, Satellite or Light) and control the display of Earthquakes, Major Earthquakes and Tectonic Plates.
 
-**Note:** An API_KEY value is required for access to Mapbox APIs. It should be added to a file named *config.ps*.  This file is not included in this repository.
+**Note:** An API_KEY value is required for access to Mapbox APIs. It should be added to a file named *config.js*.  This file is not included in this repository.
 
 ### Deliverable 1: Add Tectonic Plate Data
 
