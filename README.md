@@ -10,7 +10,18 @@ Add functionality to the Earthquakes visualisation map developed during the modu
 
 ## Results
 
+This project was created in JavaScript using Leaflet.js, and D3. Map layers are sourced from [Mapbox](https://www.mapbox.com/).
+
+All files are located under the folder [Earthquake_Challenge](Earthquake_Challenge/).
+
+Files:
+[index.html](Earthquake_Challenge/index.html)
+[static/css/style.css](Earthquake_Challenge/static/css/style.css)
+[static/js/challenge_logic.js](Earthquake_Challenge/static/js/challenge_logic.js)
+
 Users can now select 1 of 3 map modes (Street, Satellite or Light) and control the display of Earthquakes, Major Earthquakes and Tectonic Plates.
+
+**Note:** An API_KEY value is required for access to Mapbox APIs. It should be added to a file named *config.ps*.  This file is not included in this repository.
 
 ### Deliverable 1: Add Tectonic Plate Data
 
@@ -60,4 +71,9 @@ I added a layer for to the overlay for the data containing earthquakes with a ma
 I added a **Light** map layer and included it within the ```baseMap``` controls. See the snapshot below.
 
 ![Light map added](resources/deliverable3_snapshot.png)
+
 ## Summary
+
+Leaflet.js and D3 were used to retrieve data from multiple sources and display on a Mapbox generated map layer.
+
+Controls allow users to select base map and overlays to display.
